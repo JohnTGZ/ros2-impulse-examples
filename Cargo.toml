@@ -20,7 +20,7 @@ bevy_app = "0.12"
 bevy_core = "0.12"
 bevy_impulse = { git = "https://github.com/open-rmf/bevy_impulse", branch = "main", features = ["diagram"] }
 serde = "*"
-schemars = "*"
+schemars = "0.9.0"
 serde_json = "*"
 tokio = { version = "1.39", features = ["sync"] }
 clap = { version = "*", features = ["derive"] }
